@@ -1,6 +1,5 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
+import { Navbar, Home, Pay, Units, AboutUs } from "./components";
 
 const App = () => {
   return (
@@ -9,8 +8,11 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/umeme-calc" element={"calc"} />
+          <Route path="/kujua-malipo" element={<Pay />} />
+          <Route path="/kujua-units-unazopata" element={<Units />} />
+          <Route path="/about-us" element={<AboutUs />} />
         </Routes>
+        {/* Footer */}
       </Router>
     </main>
   );

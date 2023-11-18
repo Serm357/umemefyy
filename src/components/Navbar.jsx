@@ -33,7 +33,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <Link to="/" className="btn btn-ghost text-xl text-green-300">
+        <Link to="/" className="btn btn-ghost text-xl logo text-green-300">
           Umemefyy
         </Link>
       </div>
