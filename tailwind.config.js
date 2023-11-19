@@ -6,14 +6,14 @@ export default {
     extend: {
       fontFamily: {
         palanquin: ["Palanquin", "sans-serif"],
-        montserrat: ["Montserrat", "sans-serif"],
+        cursive: ["Cursive", "sans-serif"],
       },
       colors: {
         primary: "#ECEEFF",
         "coral-red": "#FF6452",
       },
       daisyui: {
-        themes: ["winter", "dim"],
+        themes: ["light", "dark"],
       },
       // backgroundImage: {
       //   hero: "url('assets/images/collection-background.svg')",
@@ -24,5 +24,5 @@ export default {
       },
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [require("daisyui"), require("preline/plugin")],
 };

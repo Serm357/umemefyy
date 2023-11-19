@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { MenuLogo } from "../assets/icons";
+import { menu } from "../assets/icons";
 import ThemeToggler from "./ThemeToggler";
 
 const Navbar = () => {
@@ -8,7 +8,15 @@ const Navbar = () => {
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
-            <MenuLogo />
+            <svg
+              className="swap-off fill-current"
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 512 512"
+            >
+              <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
+            </svg>
           </label>
           <ul
             tabIndex={0}
@@ -33,7 +41,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <Link to="/" className="btn btn-ghost text-xl logo text-green-300">
+        <Link to="/" className="btn btn-ghost text-xl logo green-text-gradient">
           Umemefyy
         </Link>
       </div>
@@ -62,7 +70,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         <ThemeToggler />
-        <a className="btn">Get App</a>
+        {/* <a className=" btn btn-success">Get App</a> */}
       </div>
     </div>
   );
