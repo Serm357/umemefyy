@@ -3,7 +3,7 @@ const ThemeToggler = () => {
     <label className="cursor-pointer grid place-items-center ">
       <input
         type="checkbox"
-        value="light"
+        value="dark"
         className="toggle theme-controller   row-start-1 col-start-1 col-span-2  bg-amber-300 border-green-500  checked:bg-blue-300 checked:border-green-300   "
       />
       {/* <svg

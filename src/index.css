@@ -10,13 +10,46 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+:root {
+  --primaryColor: #6d6d6d;
+  --headingColor: rgb(10, 149, 10);
+}
+
+.text {
+  font-size: 4rem;
+}
+.txtLg {
+  font-size: 4rem;
+}
+
+.txtSm {
+  font-size: 2rem;
+}
+/* body {
+  background: #f5f6ff;
+} */
+/* @media (prefers-color-scheme: light) {
+  html,
+  body,
+  main,
+  section {
+    background: #f5f6ff;
+  }
+} */
 
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-h1 {
+p,
+span {
+  color: var(--primaryColor);
+}
+
+h1,
+h2,
+label {
   background: #11998e; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to top,
@@ -68,4 +101,7 @@ h1 {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.pu {
+  font-size: 2.5rem;
 }

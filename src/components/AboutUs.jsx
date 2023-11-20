@@ -6,85 +6,80 @@ const AboutUs = () => {
         {/* <!-- Grid --> */}
         <div className="grid md:grid-cols-2 items-center gap-12">
           <div>
-            <h1 className="text-3xl font-bold text-gray-800 sm:text-4xl lg:text-5xl lg:leading-tight dark:text-white">
-              Hire us
+            <h1 className="text-3xl font-bold text-headingColor sm:text-4xl lg:text-5xl lg:leading-tight dark:text-white">
+              Kuhusu sisi
             </h1>
-            <p className="mt-1 md:text-lg text-gray-800 dark:text-gray-200">
-              We help brands and platforms turn big ideas into beautiful digital
-              products and experiences.
+            <p className="mt-1 md:text-lg  capitalize">
+              tunakusaidia kujua gharama na matumizi yako ya umeme ya kila siku
             </p>
 
             <div className="mt-8">
-              <h2 className="text-lg font-semibold text-gray-800 dark:text-gray-200">
-                What can I expect?
+              <h2 className="text-lg font-semibold   ">
+                Manufaa ya kutumia Umemefyy ni zipi ?
               </h2>
 
               <ul className="mt-2 space-y-2">
                 <li className="flex space-x-3">
                   <svg
-                    className="flex-shrink-0 mt-0.5 h-5 w-5 text-gray-600 dark:text-gray-400"
+                    className="flex-shrink-0 mt-0.5 h-5 w-5 text-primaryColor dark:text-primaryColor"
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   >
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
-                  <span className="text-gray-600 dark:text-gray-400">
-                    Industry-leading design
-                  </span>
+                  <span className=" ">Huduma Nyepesi</span>
                 </li>
 
                 <li className="flex space-x-3">
                   <svg
-                    className="flex-shrink-0 mt-0.5 h-5 w-5 text-gray-600 dark:text-gray-400"
+                    className="flex-shrink-0 mt-0.5 h-5 w-5 text-primaryColor dark:text-primaryColor"
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   >
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
-                  <span className="text-gray-600 dark:text-gray-400">
-                    Developer community support
-                  </span>
+                  <span className=" ">Hakuna Gharama kabisa</span>
                 </li>
 
                 <li className="flex space-x-3">
                   <svg
-                    className="flex-shrink-0 mt-0.5 h-5 w-5 text-gray-600 dark:text-gray-400"
+                    className="flex-shrink-0 mt-0.5 h-5 w-5 text-primaryColor dark:text-primaryColor"
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   >
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
-                  <span className="text-gray-600 dark:text-gray-400">
-                    Simple and affordable
+                  <span className="text-primaryColor dark:text-primaryColor">
+                    Hewani 24/7
                   </span>
                 </li>
               </ul>
             </div>
 
             {/* <!-- Brands --> */}
-            <div className="mt-8">
-              <h2 className="text-lg font-semibold text-gray-800 dark:text-gray-200">
+            {/* <div className="mt-8">
+              <h2 className="text-lg font-semibold text-primaryColor dark:text-gray-200">
                 Enjoyed by:
               </h2>
 
@@ -227,7 +222,7 @@ const AboutUs = () => {
                   />
                 </svg>
               </div>
-            </div>
+            </div> */}
             {/* <!-- End Brands --> */}
 
             <div className="mt-10 flex items-center gap-x-5">
@@ -235,17 +230,17 @@ const AboutUs = () => {
               <div className="flex -space-x-2">
                 <img
                   className="inline-block h-8 w-8 rounded-full ring-2 ring-white dark:ring-gray-800"
-                  src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
+                  src="/user1.jpeg"
                   alt="Image Description"
                 />
                 <img
                   className="inline-block h-8 w-8 rounded-full ring-2 ring-white dark:ring-gray-800"
-                  src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2.5&w=320&h=320&q=80"
+                  src="/user1.jpeg"
                   alt="Image Description"
                 />
                 <img
                   className="inline-block h-8 w-8 rounded-full ring-2 ring-white dark:ring-gray-800"
-                  src="https://images.unsplash.com/photo-1541101767792-f9b2b1c4f127?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=3&w=320&h=320&q=80"
+                  src="/user1.jpeg"
                   alt="Image Description"
                 />
                 <span className="inline-flex justify-center items-center h-8 w-8 rounded-full bg-blue-600 text-white ring-2 ring-white">
@@ -262,8 +257,8 @@ const AboutUs = () => {
                 </span>
               </div>
               {/* <!-- End Avatar Group --> */}
-              <span className="text-sm text-gray-500">
-                Trusted by over 37k customer
+              <span className="text-sm text-stone-500">
+                Ina amininiwa na watu zaidi ya elfu 5+
               </span>
             </div>
           </div>
@@ -273,7 +268,7 @@ const AboutUs = () => {
             {/* <!-- Card --> */}
             <div className="flex flex-col border rounded-xl p-4 sm:p-6 lg:p-10 dark:border-gray-700">
               <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-200">
-                Fill in the form
+                Jaza Fomu ifuatayo
               </h2>
 
               <form>
@@ -282,31 +277,27 @@ const AboutUs = () => {
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
                     <div>
                       <label
-                        for="hs-firstname-hire-us-1"
+                        htmlFor=" firstname "
                         className="block mb-2 text-sm text-gray-700 font-medium dark:text-white"
                       >
-                        First Name
+                        Jina la Kwanza
                       </label>
                       <input
                         type="text"
-                        name="hs-firstname-hire-us-1"
-                        id="hs-firstname-hire-us-1"
-                        className="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600"
+                        className="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm bg-gray-300 focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none   dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600"
                       />
                     </div>
 
                     <div>
                       <label
-                        for="hs-lastname-hire-us-1"
+                        htmlFor=" lastname "
                         className="block mb-2 text-sm text-gray-700 font-medium dark:text-white"
                       >
-                        Last Name
+                        Jina la Mwisho
                       </label>
                       <input
                         type="text"
-                        name="hs-lastname-hire-us-1"
-                        id="hs-lastname-hire-us-1"
-                        className="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600"
+                        className="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm bg-gray-300 focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none   dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600"
                       />
                     </div>
                   </div>
@@ -314,113 +305,48 @@ const AboutUs = () => {
 
                   <div>
                     <label
-                      for="hs-work-email-hire-us-1"
+                      htmlFor=" email "
                       className="block mb-2 text-sm text-gray-700 font-medium dark:text-white"
                     >
-                      Work Email
+                      Email
                     </label>
                     <input
                       type="email"
-                      name="hs-work-email-hire-us-1"
-                      id="hs-work-email-hire-us-1"
-                      autocomplete="email"
-                      className="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600"
+                      autoComplete="email"
+                      className="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm bg-gray-300 focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none   dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600"
                     />
                   </div>
 
-                  {/* <!-- Grid --> */}
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
-                    <div>
-                      <label
-                        for="hs-company-hire-us-1"
-                        className="block mb-2 text-sm text-gray-700 font-medium dark:text-white"
-                      >
-                        Company
-                      </label>
-                      <input
-                        type="text"
-                        name="hs-company-hire-us-1"
-                        id="hs-company-hire-us-1"
-                        className="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600"
-                      />
-                    </div>
-
-                    <div>
-                      <label
-                        for="hs-company-website-hire-us-1"
-                        className="block mb-2 text-sm text-gray-700 font-medium dark:text-white"
-                      >
-                        Company Website
-                      </label>
-                      <input
-                        type="text"
-                        name="hs-company-website-hire-us-1"
-                        id="hs-company-website-hire-us-1"
-                        className="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600"
-                      />
-                    </div>
-                  </div>
-                  {/* <!-- End Grid --> */}
-
                   <div>
                     <label
-                      for="hs-about-hire-us-1"
+                      htmlFor=" about "
                       className="block mb-2 text-sm text-gray-700 font-medium dark:text-white"
                     >
-                      Details
+                      Ujumbe
                     </label>
                     <textarea
-                      id="hs-about-hire-us-1"
-                      name="hs-about-hire-us-1"
                       rows="4"
-                      className="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600"
+                      className="py-3 px-4 block w-full border-gray-200 bg-gray-300 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none   dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600"
                     ></textarea>
                   </div>
                 </div>
                 {/* <!-- End Grid --> */}
-
-                {/* <!-- Checkbox --> */}
-                <div className="mt-3 flex">
-                  <div className="flex">
-                    <input
-                      id="remember-me"
-                      name="remember-me"
-                      type="checkbox"
-                      className="shrink-0 mt-1.5 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                    />
-                  </div>
-                  <div className="ms-3">
-                    <label
-                      for="remember-me"
-                      className="text-sm text-gray-600 dark:text-gray-400"
-                    >
-                      By submitting this form I have read and acknowledged the{" "}
-                      <a
-                        className="text-blue-600 decoration-2 hover:underline font-medium"
-                        href="#"
-                      >
-                        Privacy policy
-                      </a>
-                    </label>
-                  </div>
-                </div>
-                {/* <!-- End Checkbox --> */}
 
                 <div className="mt-6 grid">
                   <button
                     type="submit"
                     className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                   >
-                    Send inquiry
+                    Tuma ujumbe
                   </button>
                 </div>
               </form>
 
-              <div className="mt-3 text-center">
+              {/* <div className="mt-3 text-center">
                 <p className="text-sm text-gray-500">
                   We'll get back to you in 1-2 business days.
                 </p>
-              </div>
+              </div> */}
             </div>
             {/* <!-- End Card --> */}
           </div>

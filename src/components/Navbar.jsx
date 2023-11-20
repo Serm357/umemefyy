@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
-import { menu } from "../assets/icons";
 import ThemeToggler from "./ThemeToggler";
+import UnitModal from "../Modals/UnitModal";
+import CashModal from "../Modals/CashModal";
 
 const Navbar = () => {
   return (
@@ -23,21 +24,39 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/">Nyumbani</Link>
             </li>
             <li>
-              <a>Calculator</a>
-              <ul className="p-2">
+              <Link to="/calculator" className="text-green-500 font-bold">
+                Calculator
+              </Link>
+              <ul className="flex flex-col items-center justify-center gap-2 ">
                 <li>
-                  <Link to="/kujua-malipo">kujua-malipo</Link>
+                  <button
+                    className="btn btn-warning l"
+                    onClick={() =>
+                      document.getElementById("cash_modal").showModal()
+                    }
+                  >
+                    Kujua Pesa →{" "}
+                  </button>
                 </li>
                 <li>
-                  <Link to="/kujua-units-unazopata">kujua-units-unazopata</Link>
+                  <button
+                    className="btn btn-success l"
+                    onClick={() =>
+                      document.getElementById("units_modal").showModal()
+                    }
+                  >
+                    Kujua units →{" "}
+                  </button>
                 </li>
+                <UnitModal />
+                <CashModal />
               </ul>
             </li>
             <li>
-              <Link to="/about-us">About us</Link>
+              <Link to="/about-us">Kuhusu sisi</Link>
             </li>
           </ul>
         </div>
@@ -46,27 +65,49 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+        <ul className="menu menu-horizontal  ">
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">Nyumbani</Link>
           </li>
           <li tabIndex={0}>
-            <details>
-              <summary>Calculator</summary>
-              <ul className="p-2">
+            <div
+              className="dropdown w-44 flex items-center justify-center z-10 "
+              tabIndex={0}
+            >
+              <p className="text-green-500">Calculator</p>
+              <ul
+                className="p-2 dropdown-content flex flex-col gap-2 mt-36"
+                tabIndex={0}
+              >
                 <li>
-                  <Link to="/kujua-malipo">Malipo</Link>
+                  <button
+                    className="btn btn-warning  "
+                    onClick={() =>
+                      document.getElementById("cash_modal").showModal()
+                    }
+                  >
+                    Kujua Pesa →{" "}
+                  </button>
                 </li>
                 <li>
-                  <Link to="/kujua-units-unazopata">Units</Link>
+                  <button
+                    className="btn btn-success  "
+                    onClick={() =>
+                      document.getElementById("units_modal").showModal()
+                    }
+                  >
+                    Kujua units →{" "}
+                  </button>
                 </li>
               </ul>
-            </details>
+            </div>
           </li>
           <li>
-            <Link to="/about-us">About us</Link>
+            <Link to="/about-us">Kuhusu sisi</Link>
           </li>
         </ul>
+        <UnitModal />
+        <CashModal />
       </div>
       <div className="navbar-end">
         <ThemeToggler />
@@ -76,3 +117,5 @@ const Navbar = () => {
   );
 };
 export default Navbar;
+// todo : dropdown - desktop
+// todo : dropdown - desktop
