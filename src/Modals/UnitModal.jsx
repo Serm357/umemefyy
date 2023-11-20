@@ -23,8 +23,10 @@ const UnitModal = () => {
           <figure>
             <img src={calcGif} alt="calcultor-gif" className="w-full h-52" />
           </figure>
-          <div className="card-body">
-            <h2 className="card-title">Kujua Units za Umeme Utazopata </h2>
+          <div className="card-body flex flex-col items-center justify-center">
+            <h2 className="card-title  wrap">
+              Kujua Units za Umeme Utazopata{" "}
+            </h2>
             <p className="text-yellow-700">Ingiza Pesa (TZS) ↓</p>
             <input
               type="number"

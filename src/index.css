@@ -25,6 +25,9 @@
 .txtSm {
   font-size: 2rem;
 }
+.wrap {
+  text-wrap: wrap;
+}
 /* body {
   background: #f5f6ff;
 } */

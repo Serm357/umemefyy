@@ -23,8 +23,10 @@ const CashModal = () => {
           <figure>
             <img src={calcGif} alt="calcultor-gif" className="w-full h-52" />
           </figure>
-          <div className="card-body">
-            <h2 className="card-title">Kujua Pesa Unayo takiwa kulipa </h2>
+          <div className="card-body flex flex-col items-center justify-center">
+            <h2 className="card-title  wrap">
+              Kujua Pesa Unayo takiwa kulipa{" "}
+            </h2>
             <p className="text-yellow-700">Ingiza units (Kwh) ↓</p>
             <input
               type="number"

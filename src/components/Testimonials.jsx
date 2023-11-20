@@ -7,7 +7,7 @@ const Testimonials = () => {
       <div className="md:grid md:grid-cols-2 md:gap-10 lg:gap-16 md:items-center">
         <div className="hidden md:block mb-24 md:mb-0 sm:px-6">
           <div className="relative">
-            <img className="rounded-xl" src="/user1.jpeg" alt="user image" />
+            <img className="rounded-xl" src="/user1.png" alt="user image" />
 
             {/*  SVG Element  */}
             <div className="absolute bottom-0 start-0 -z-[1] translate-y-10 -translate-x-14">
@@ -109,7 +109,7 @@ const Testimonials = () => {
                 <div className="md:hidden flex-shrink-0">
                   <img
                     className="h-12 w-12 rounded-full"
-                    src="/user1.jpeg"
+                    src="/user1.png"
                     alt="uesr image"
                   />
                 </div>
