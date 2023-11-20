@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       {/*   Hero */}
-      <section className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 relative">
+      <section className="max-w-[85rem] mt-20 mx-auto px-4 sm:px-6 lg:px-8 relative">
         {/*  Grid   */}
         <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
           <div>

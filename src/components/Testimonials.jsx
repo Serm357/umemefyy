@@ -7,10 +7,10 @@ const Testimonials = () => {
       <div className="md:grid md:grid-cols-2 md:gap-10 lg:gap-16 md:items-center">
         <div className="hidden md:block mb-24 md:mb-0 sm:px-6">
           <div className="relative">
-            <img className="rounded-xl" src="/user1.png" alt="user image" />
+            <img className="rounded-full" src="/user1.png" alt="user image" />
 
             {/*  SVG Element  */}
-            <div className="absolute bottom-0 start-0 -z-[1] translate-y-10 -translate-x-14">
+            <div className="absolute bottom-3 start-0 -z-[1] translate-y-10 -translate-x-14">
               <svg
                 className="max-w-[10rem] h-auto text-primaryColor dark:text-primaryColor"
                 width="696"

@@ -2,10 +2,28 @@ import { Link } from "react-router-dom";
 import ThemeToggler from "./ThemeToggler";
 import UnitModal from "../Modals/UnitModal";
 import CashModal from "../Modals/CashModal";
+import { useEffect, useState } from "react";
 
 const Navbar = () => {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+      if (scrollTop > 100) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-100 mb-5 py-2  fixed top-0 left-0 right-0 z-20 border-gray-300  dark:border-gray-600 shadow-lg">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
