@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <section className="w-full h-screen font-cursive      ">
+    <section className="w-full h-screen  ">
       <Router>
         <Navbar />
         <Routes>
