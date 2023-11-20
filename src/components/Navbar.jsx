@@ -21,9 +21,13 @@ const Navbar = () => {
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
+  // scrolled ? "bg-primary" : "bg-transparent"
   return (
-    <div className="navbar bg-base-100 mb-5 py-2  fixed top-0 left-0 right-0 z-20 border-gray-300  dark:border-gray-600 shadow-lg">
+    <div
+      className={`${
+        scrolled ? " bg-green-50" : " "
+      } navbar bg-base-100 mb-5 py-1   fixed top-0 left-0 right-0 z-20 border-gray-300  dark:border-gray-600 shadow-xl `}
+    >
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
