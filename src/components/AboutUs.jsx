@@ -1,9 +1,9 @@
 const AboutUs = () => {
   return (
     <>
-      {/* <!-- Hire Us --> */}
+      {/*   Hire Us   */}
       <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-        {/* <!-- Grid --> */}
+        {/*   Grid   */}
         <div className="grid md:grid-cols-2 items-center gap-12">
           <div>
             <h1 className="text-3xl font-bold text-headingColor sm:text-4xl lg:text-5xl lg:leading-tight dark:text-white">
@@ -77,7 +77,7 @@ const AboutUs = () => {
               </ul>
             </div>
 
-            {/* <!-- Brands --> */}
+            {/*   Brands   */}
             {/* <div className="mt-8">
               <h2 className="text-lg font-semibold text-primaryColor dark:text-gray-200">
                 Enjoyed by:
@@ -223,10 +223,10 @@ const AboutUs = () => {
                 </svg>
               </div>
             </div> */}
-            {/* <!-- End Brands --> */}
+            {/*   End Brands   */}
 
             <div className="mt-10 flex items-center gap-x-5">
-              {/* <!-- Avatar Group --> */}
+              {/*   Avatar Group   */}
               <div className="flex -space-x-2">
                 <img
                   className="inline-block h-8 w-8 rounded-full ring-2 ring-white dark:ring-gray-800"
@@ -256,16 +256,16 @@ const AboutUs = () => {
                   </svg>
                 </span>
               </div>
-              {/* <!-- End Avatar Group --> */}
+              {/*   End Avatar Group   */}
               <span className="text-sm text-stone-500">
                 Ina amininiwa na watu zaidi ya elfu 5+
               </span>
             </div>
           </div>
-          {/* <!-- End Col --> */}
+          {/*   End Col   */}
 
           <div className="relative">
-            {/* <!-- Card --> */}
+            {/*   Card   */}
             <div className="flex flex-col border rounded-xl p-4 sm:p-6 lg:p-10 dark:border-gray-700">
               <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-200">
                 Jaza Fomu ifuatayo
@@ -273,7 +273,7 @@ const AboutUs = () => {
 
               <form>
                 <div className="mt-6 grid gap-4 lg:gap-6">
-                  {/* <!-- Grid --> */}
+                  {/*   Grid   */}
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
                     <div>
                       <label
@@ -301,7 +301,7 @@ const AboutUs = () => {
                       />
                     </div>
                   </div>
-                  {/* <!-- End Grid --> */}
+                  {/*   End Grid   */}
 
                   <div>
                     <label
@@ -330,7 +330,7 @@ const AboutUs = () => {
                     ></textarea>
                   </div>
                 </div>
-                {/* <!-- End Grid --> */}
+                {/*   End Grid   */}
 
                 <div className="mt-6 grid">
                   <button
@@ -348,13 +348,13 @@ const AboutUs = () => {
                 </p>
               </div> */}
             </div>
-            {/* <!-- End Card --> */}
+            {/*   End Card   */}
           </div>
-          {/* <!-- End Col --> */}
+          {/*   End Col   */}
         </div>
-        {/* <!-- End Grid --> */}
+        {/*   End Grid   */}
       </div>
-      {/* <!-- End Hire Us --> */}
+      {/*   End Hire Us   */}
     </>
   );
 };

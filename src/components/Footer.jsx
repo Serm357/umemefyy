@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       <footer className="w-full max-w-[85rem] py-3 px-4 sm:px-6 lg:px-8 mx-auto   border-t-2 border-gray-300  dark:border-gray-600">
-        {/* <!-- Grid --> */}
+        {/*   Grid  */}
         <div className="text-center">
           <div>
             <Link
@@ -15,7 +15,7 @@ const Footer = () => {
               Umemefyy
             </Link>
           </div>
-          {/* <!-- End Col --> */}
+          {/*   End Col  */}
 
           <div className="mt-3">
             <p className="text-gray-500">
@@ -33,7 +33,7 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* <!-- Social Brands --> */}
+          {/*   Social Brands  */}
           <div className="mt-3 space-x-2">
             <Link
               className="inline-flex justify-center items-center w-10 h-10 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800"
@@ -96,9 +96,9 @@ const Footer = () => {
               </svg>
             </Link>
           </div>
-          {/* <!-- End Social Brands --> */}
+          {/*   End Social Brands  */}
         </div>
-        {/* <!-- End Grid --> */}
+        {/*   End Grid  */}
       </footer>
     </>
   );

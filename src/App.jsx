@@ -1,5 +1,5 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import { Navbar, Home, Calculator, Units, AboutUs } from "./components";
+import { Navbar, Home, Calculator, AboutUs } from "./components";
 import Footer from "./components/Footer";
 
 const App = () => {
@@ -10,7 +10,6 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/calculator" element={<Calculator />} />
-          <Route path="/kujua-units-unazopata" element={<Units />} />
           <Route path="/about-us" element={<AboutUs />} />
         </Routes>
         <Footer />

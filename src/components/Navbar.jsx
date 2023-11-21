@@ -21,7 +21,7 @@ const Navbar = () => {
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-  // scrolled ? "bg-primary" : "bg-transparent"
+
   return (
     <div
       className={`${
